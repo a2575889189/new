@@ -1,13 +1,13 @@
 import java.awt.*;
 import javax.swing.*;
 public class BallGame extends JFrame {
-	//¼Ì³Ğ´°¿ÚÀà
-	//´°¿Ú¼ÓÔØ
+	//ç»§æ‰¿çª—å£ç±»
+	//çª—å£åŠ è½½æ›´æ–°
 	Image ball=Toolkit.getDefaultToolkit().getImage("images/ball.png");
 	Image desk=Toolkit.getDefaultToolkit().getImage("images/desk.jpg");
 	double x=100;
 	double y=100;
-	double degree=3.14/3;//»¡¶È60¶ÈĞŞ¸ÄÎÄ¼ş
+	double degree=3.14/3;//å¼§åº¦60åº¦ä¿®æ”¹æ–‡ä»¶
 	public void paint(Graphics g) {
 		System.out.println("chuangkouhuayici");
 		g.drawImage(desk, 0, 0, null);
@@ -27,12 +27,12 @@ public class BallGame extends JFrame {
 
 	}
 	
-	//´°¿Ú¼ÓÔØ
+	//çª—å£åŠ è½½
 	void launchFrame() {
 		setSize(856,500);
 		setLocation(50,50);
 		setVisible(true);
-	//´°¿ÚÖØ»­ Ã¿Ãë»°25
+	//çª—å£é‡ç”» æ¯ç§’è¯25
 		while(true) {
 			repaint();
 			try {
