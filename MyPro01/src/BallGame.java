@@ -7,7 +7,7 @@ public class BallGame extends JFrame {
 	Image desk=Toolkit.getDefaultToolkit().getImage("images/desk.jpg");
 	double x=100;
 	double y=100;
-	double degree=3.14/3;//弧度60度
+	double degree=3.14/3;//弧度60度修改文件
 	public void paint(Graphics g) {
 		System.out.println("chuangkouhuayici");
 		g.drawImage(desk, 0, 0, null);
