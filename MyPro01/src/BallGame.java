@@ -2,7 +2,7 @@ import java.awt.*;
 import javax.swing.*;
 public class BallGame extends JFrame {
 	//继承窗口类
-	//窗口加载更新 hello aaa
+	//窗口加载更新 hello aaa aaa
 	Image ball=Toolkit.getDefaultToolkit().getImage("images/ball.png");
 	Image desk=Toolkit.getDefaultToolkit().getImage("images/desk.jpg");
 	double x=100;
